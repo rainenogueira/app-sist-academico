@@ -1,0 +1,17 @@
+<ion-content class="ion-padding">
+  <form [formGroup]="ionicForm"  novalidate>
+  <div class="login-container">
+  <h1>Log-in</h1>
+  <p>Realize seu login abaixo:</p>
+  <ion-item>
+  <ion-label position="stacked">Email</ion-label>
+  <ion-input type="text" placeholder="Digite seu Email" formControlName="email" class="input"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label position="stacked">Senha</ion-label>
+  <ion-input type="password" placeholder="Digite sua senha" formControlName="password" class="input"></ion-input>
+  </ion-item>
+  <ion-button expand="block" color="secondary" type="submit" (click)="login()">Entrar</ion-button>
+  </div>
+</form>
+  </ion-content>

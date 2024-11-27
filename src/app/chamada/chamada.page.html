@@ -1,0 +1,28 @@
+<ion-content class="ion-padding">
+  <ion-header>
+    <ion-toolbar color="secondary">
+      <ion-title>Chamada</ion-title>
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="/homepage"></ion-back-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    <h2>Chamada</h2>
+    <ion-list>
+      <ion-item>
+      <ion-label>
+      <h3>ATENÇÃO: AULA ACONTECENDO NO MOMENTO.</h3>
+      <ion-button expand="block" color="success" (click)="confirmarPresenca()">Eu estou presente!</ion-button>
+      </ion-label>
+      </ion-item>
+      </ion-list>
+    
+  <ion-alert
+    [isOpen]="showAlert"
+    header="Presença Confirmada!"
+    message="Sua presença foi registrada com sucesso."
+    buttons="OK"
+    (didDismiss)="showAlert = false">
+  </ion-alert>
+  
+  </ion-content>

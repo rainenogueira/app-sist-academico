@@ -1,0 +1,49 @@
+<div class="welcome-container">
+  <h2>Seja bem-vindo, <strong>Aluno</strong></h2>
+</div>
+
+<ion-grid class="aluno-detalhes">
+  <!-- Linha principal contendo o avatar e as informações -->
+  <ion-row>
+    <!-- Coluna do Avatar -->
+    <ion-col size="4" class="text-center">
+      <ion-avatar class="avatar">
+        <img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="Avatar do Aluno" />
+      </ion-avatar>
+    </ion-col>
+
+    <!-- Coluna das Informações -->
+    <ion-col size="8">
+      <p><strong>Nome:</strong> Aluno</p>
+      <p><strong>Nº de Matrícula:</strong> 1234567890</p>
+      <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+      <p><strong>Semestre:</strong> 4º</p>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row>
+    <ion-col size="6">
+      <ion-button expand="block" color="medium" shape="round" routerLink="/disciplinas">Disciplinas</ion-button>
+    </ion-col>
+    <ion-col size="6">
+      <ion-button expand="block" color="medium" shape="round" routerLink="/notas">Notas</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6">
+      <ion-button expand="block" color="medium" shape="round" routerLink="/faltas">Faltas</ion-button>
+    </ion-col>
+    <ion-col size="6">
+      <ion-button expand="block" color="medium" shape="round" routerLink="/chamada">Chamada</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-card>
+  <ion-card-content class="ion-text-bottom">
+    <p>Progressão do semestre</p>
+    <ion-progress-bar value="0.9" color="secondary"></ion-progress-bar>
+  </ion-card-content>
+</ion-card>
