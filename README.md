@@ -24,4 +24,11 @@ Este projeto é uma aplicação desenvolvida com o auxilio do ionic angular com 
 ## 🚀 Demonstração de Utilização
 [clique aqui acessar as fotos da demonstração e ter acesso ao aplicativo em zip](https://drive.google.com/drive/folders/1xYzXjFifc8ZyhbZZz4TPppHpIinbbFGQ?usp=sharing)
 
+## Desenvolvedores:
+- Raíne da Luz Nogueira de Toledo
+- Guilherme Luiz Ribeiro da Silva
+- Douglas Gois Evangelista da Silva
+- João Victor Moreira Bruno
+- Herlan Mota Vieira
+
 
